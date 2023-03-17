@@ -27,8 +27,8 @@ client = gspread.authorize(creds)
 
 
 st.markdown('## Area Business Development')
-st.markdown('### [Link google sheet](https://docs.google.com/spreadsheets/d/1ioR9yXMCJJxuxaiuEBoPKP4-EJLa6RgdYZicrTQpxl0/edit#gid=0)')
-link_BD = "https://docs.google.com/spreadsheets/d/1ioR9yXMCJJxuxaiuEBoPKP4-EJLa6RgdYZicrTQpxl0/edit#gid=0"
+st.markdown('### [Link google sheet](https://docs.google.com/spreadsheets/d/1vqOxegUvbSFY3w4o--Vt98IVBwAZMdySFCRMWGI8GAQ/edit#gid=0)')
+link_BD = "https://docs.google.com/spreadsheets/d/1vqOxegUvbSFY3w4o--Vt98IVBwAZMdySFCRMWGI8GAQ/edit#gid=0"
 sht = client.open_by_url(link_BD)
 
 # funzione al click del bottone
